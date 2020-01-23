@@ -210,17 +210,9 @@
 </plugins>
   </build>
 <distributionManagement>
-  
    <repository>
       <id>nexus</id>
       <url>http://192.168.56.107:8081/nexus/content/repositories/snapshots/</url>
    </repository>
 </distributionManagement>
-<scm>
- <connection>scm:git:https://github.com/kanthibushan/maventest.git</connection>
- <url>https://github.com/kanthibushan/maventest</url>
-<developerConnection>scm:git:https://github.com/kanthibushan/maventest.git</developerConnection>
-  <tag>2.0</tag>
-  </scm>
-
 </project>
