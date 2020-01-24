@@ -203,7 +203,7 @@
    </executions>
    <configuration>
       <serverId>nexus</serverId>
-      <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
+      <nexusUrl>http://192.168.56.107:8081/nexus/</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
@@ -212,7 +212,7 @@
 <distributionManagement>
    <repository>
       <id>nexus</id>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+      <url>http://192.168.56.107:8081/nexus/content/repositories/snapshots/</url>
    </repository>
 </distributionManagement>
 </project>
